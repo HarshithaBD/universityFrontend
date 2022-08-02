@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { UiActions } from '../store/ui-slice';
 
 function useSnackbar() {
-
+//use
     const snackbarState = useSelector(store => store.ui);
 
     const dispatch = useDispatch();
